@@ -1,6 +1,7 @@
 package com.vit.restaurant;
 import javax.swing.*;
 import com.formdev.flatlaf.*;
+import com.vit.restaurant.pages.login;
 
 /**
  * Hello world!
@@ -20,6 +21,6 @@ public final class App {
             System.err.println("Failed to initialize LaF");
         }
 
-        System.out.println("Hello World java guys..hi!");
+        login login=new login();
     }
 }
