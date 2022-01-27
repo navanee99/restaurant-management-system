@@ -5,6 +5,7 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.border.EmptyBorder;
 import javax.swing.plaf.FontUIResource;
+import java.awt.event.*;
 
 public class login {
   JFrame loginFrame;
@@ -18,8 +19,8 @@ public class login {
     loginBttn.setBounds(660, 150, 100, 40);
     cancelBttn = new JButton("Exit");
     cancelBttn.setBounds(660, 200, 100, 40);
-    loginBttn.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent e) {
+    loginBttn.addActionListener(new ActionListener() {
+        public void actionPerformed(ActionEvent e) {
   
             loginFrame.dispose();
             signin signin = new signin();
