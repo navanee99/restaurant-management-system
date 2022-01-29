@@ -19,9 +19,9 @@ public class HomePage {
     orderBttn.setBounds(675, 150, 100, 40);
     managemenuBttn = new JButton("managemenu");
     managemenuBttn.setBounds(675, 200, 100, 40);
-    orderdetailsBttn = new JButton("logout");
+    orderdetailsBttn = new JButton("order");
     orderdetailsBttn.setBounds(675, 250, 100, 40);
-    paymentBttn = new JButton("order");
+    paymentBttn = new JButton("payment");
     paymentBttn.setBounds(675, 300, 100, 40);
     managemenuBttn.addActionListener(new java.awt.event.ActionListener() {
         public void actionPerformed(java.awt.event.ActionEvent e) {
