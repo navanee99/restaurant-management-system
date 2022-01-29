@@ -14,7 +14,7 @@ public class login {
   JLabel l1;
 
   public login() {
-    loginFrame = new JFrame("Login | VIT Restaurant");
+    loginFrame = new JFrame("Login | VIT Restaurant system");
     loginBttn = new JButton("Login");
     loginBttn.setBounds(660, 150, 100, 40);
     cancelBttn = new JButton("Exit");
