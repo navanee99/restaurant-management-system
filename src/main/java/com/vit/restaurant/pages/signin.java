@@ -49,11 +49,9 @@ public class signin {
         String password = passwordText.getText();
         if (userName.equals("") && password.equals("")) {
           signInFrame.dispose();
-<<<<<<< HEAD
-           new Home();
-=======
+
           new HomePage();
->>>>>>> 4d1bbbc811ab6b70434850d5557cafea4b994ec9
+
           System.out.println("Login Successful");
           
         } else {
