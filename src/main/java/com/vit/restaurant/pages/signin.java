@@ -23,7 +23,7 @@ public class signin {
     cancelBttn.setBounds(700, 300, 100, 40);
     JLabel invalid = new JLabel("");
     invalid.setBounds(675, 360, 300, 50);
-    JLabel title = new JLabel("VIT Billing System");
+    JLabel title = new JLabel("VIT Restaurent System");
     title.setFont(new FontUIResource("Noto Sans", FontUIResource.BOLD, 25));
     title.setBorder(new EmptyBorder(10, 10, 10, 10));
     title.setBounds(625, 25, 400, 40);
