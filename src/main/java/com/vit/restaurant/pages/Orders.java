@@ -21,7 +21,7 @@ public class Orders{
         // JPanel panel1, panel2, btnpanel;    
 
         JFrame f= new JFrame();    
-        Border orange = BorderFactory.createLineBorder(Color.orange);
+        // Border orange = BorderFactory.createLineBorder(Color.orange);
         // panel1=new JPanel();   
 
 
