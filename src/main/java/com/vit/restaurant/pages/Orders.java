@@ -120,24 +120,28 @@ public class Orders{
                 la7.setVisible(false);
                 la8.setVisible(false);
                 la9.setVisible(false);
-                sla1 = new JLabel();
-                sla2 = new JLabel();
-                sla3 = new JLabel();
-                
+                fsb4.setVisible(false);
+                fsb5.setVisible(false);
+                fsb6.setVisible(false);
+                fsb7.setVisible(false);
+                fsb8.setVisible(false);
+                fsb9.setVisible(false);
                 fsb1.addActionListener(new ActionListener(){  
                     public void actionPerformed(ActionEvent e){
-                        sla1.setBounds(900,100,150,50);  
-                        sla1.setText(" Thadoori1");       
+                        String item1=la1.getText(); 
+                        sla1.setText(String.valueOf(item1)); 
+                        sla1.setBounds(900,100,150,50);        
                         sla1.setVisible(true);
                         sla2.setVisible(false);
-                        sla3.setVisible(false);            
+                        sla3.setVisible(false);  
+
                     }
                 });  
                 fsb2.addActionListener(new ActionListener(){  
                     public void actionPerformed(ActionEvent e){  
-                     
+                        String item2=la2.getText(); 
+                        sla2.setText(String.valueOf(item2)); 
                         sla2.setBounds(900,140,150,50);
-                        sla2.setText(" Thadoori2");
                         sla1.setVisible(false);
                         sla2.setVisible(true);
                         sla3.setVisible(false);
@@ -146,9 +150,10 @@ public class Orders{
 
                 fsb3.addActionListener(new ActionListener(){  
                     public void actionPerformed(ActionEvent e){  
-                     
+                      
+                        String item3=la3.getText(); 
+                        sla3.setText(String.valueOf(item3)); 
                         sla3.setBounds(900,180,150,50);
-                        sla3.setText(" Thadoori3");
                         sla1.setVisible(false);
                         sla2.setVisible(false);
                         sla3.setVisible(true);
@@ -188,6 +193,12 @@ public class Orders{
                 la7.setVisible(false);
                 la8.setVisible(false);
                 la9.setVisible(false);
+                fsb1.setVisible(false);
+                fsb2.setVisible(false);
+                fsb3.setVisible(false);
+                fsb7.setVisible(false);
+                fsb8.setVisible(false);
+                fsb9.setVisible(false);
 
                 
                               
@@ -223,6 +234,12 @@ public class Orders{
                 la7.setVisible(true);
                 la8.setVisible(true);
                 la9.setVisible(true);
+                fsb4.setVisible(false);
+                fsb5.setVisible(false);
+                fsb6.setVisible(false);
+                fsb1.setVisible(false);
+                fsb2.setVisible(false);
+                fsb3.setVisible(false);
 
                
 }
